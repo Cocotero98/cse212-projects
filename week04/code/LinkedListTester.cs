@@ -2,6 +2,17 @@ public static class LinkedListTester
 {
     public static void Run()
     {
+
+        var testList = new LinkedList<int>();
+        testList.AddFirst(1);
+        testList.AddLast(5);
+        testList.AddLast(6);
+        var firstl = testList.First();
+        var lastl = testList.Last();
+        Console.WriteLine(firstl);
+        Console.WriteLine(lastl);
+
+
         // Sample Test Cases (may not be comprehensive) 
         Console.WriteLine("\n=========== PROBLEM 1 TESTS ===========");
         var ll = new LinkedList();
